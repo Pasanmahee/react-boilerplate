@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:janpauldahlke/react-boilerplate.git"
+    "url": "git+ssh://git@github.com/janpauldahlke/react-boilerplate.git"
   },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
@@ -35,5 +35,9 @@
     "redux": "^3.7.2",
     "redux-logger": "^3.0.1",
     "redux-thunk": "^2.2.0"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/janpauldahlke/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/janpauldahlke/react-boilerplate#readme"
 }
