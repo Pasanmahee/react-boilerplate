@@ -25,7 +25,7 @@ class PokemonList extends Component {
                 </ul>
             );
         }
-        return (<div>Loading...</div>)
+        return (<div></div>)
     }
 }
 

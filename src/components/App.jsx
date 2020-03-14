@@ -43,20 +43,27 @@ class App extends Component {
                 <div>
                     <h1>Pokemon gotta catch em all</h1>
                     <form action="">
-                        <label htmlFor="">Select Your Pokemon</label>
-                        <select name="" id="" onChange={this.onSelectTypeChange.bind(this)}>
-                            <option value="1">Water</option>
-                            <option value="2">Fighting</option>
-                            <option value="3">Flying</option>
-                        </select>
-                        <button className="btn btn-success"
-                            onClick={this.onButtonClick.bind(this)}
-                        >Select the type</button>
+                        <label htmlFor=""> <h3>Select Your Pokemon</h3></label>
+                        <div className="row">
+                            <select className="form-control" id="exampleFormControlSelect1" name="" id="" onChange={this.onSelectTypeChange.bind(this)}>
+                                <option value="1">Water</option>
+                                <option value="2">Fighting</option>
+                                <option value="3">Flying</option>
+                            </select>
+                        </div>
+                        <br />
+                        <div className="row">
+                            <div className="col-2 offset-10">
+                                <button className="btn btn-success"
+                                    onClick={this.onButtonClick.bind(this)}
+                                >Select the type</button>
+                            </div>
+                        </div>
 
                         <PokemonList pokemonResult={this.state.pokemonList} />
                     </form>
                 </div>
-            </div>
+            </div >
         )
     }
 }

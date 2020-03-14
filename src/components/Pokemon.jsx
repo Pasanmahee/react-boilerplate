@@ -39,15 +39,12 @@ class Pokemon extends Component {
         console.log(this.state)
         if (!this.state.showValues) {
             return (
-                <div className="row">
+                <div className="row" onClick={this.onPokemonClick.bind(this)}>
                     <div className="col-6 offset-3">
                         <li className='card'>
                             <div class="card">
                                 <div class="card-header">
                                     <h4>{this.props.name}</h4>
-                                </div>
-                                <div class="card-body text-center">
-                                    <button href="#" class="btn btn-primary" onClick={this.onPokemonClick.bind(this)}>View the Pokemon</button>
                                 </div>
                             </div>
                         </li>

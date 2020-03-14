@@ -1,5 +1,7 @@
 body {
-    background: yellowgreen;
+    background-image: url(https://free4kwallpapers.com/uploads/wallpaper/created-a-3d-render-of-a-pokemon-trophy-in-the-grass-wallpaper-1024x768-wallpaper.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
 }
 
 .app-container {
